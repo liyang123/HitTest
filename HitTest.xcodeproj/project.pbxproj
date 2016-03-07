@@ -15,6 +15,7 @@
 		089A7CB91C8D118C0002DCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089A7CB71C8D118C0002DCD9 /* LaunchScreen.storyboard */; };
 		089A7CC41C8D118C0002DCD9 /* HitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A7CC31C8D118C0002DCD9 /* HitTestTests.m */; };
 		089A7CCF1C8D118C0002DCD9 /* HitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A7CCE1C8D118C0002DCD9 /* HitTestUITests.m */; };
+		089A7CDE1C8D11AB0002DCD9 /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A7CDD1C8D11AB0002DCD9 /* HitTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		089A7CCA1C8D118C0002DCD9 /* HitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		089A7CCE1C8D118C0002DCD9 /* HitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestUITests.m; sourceTree = "<group>"; };
 		089A7CD01C8D118C0002DCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089A7CDC1C8D11AB0002DCD9 /* HitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
+		089A7CDD1C8D11AB0002DCD9 /* HitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				089A7CAD1C8D118B0002DCD9 /* AppDelegate.m */,
 				089A7CAF1C8D118B0002DCD9 /* ViewController.h */,
 				089A7CB01C8D118B0002DCD9 /* ViewController.m */,
+				089A7CDC1C8D11AB0002DCD9 /* HitTestView.h */,
+				089A7CDD1C8D11AB0002DCD9 /* HitTestView.m */,
 				089A7CB21C8D118B0002DCD9 /* Main.storyboard */,
 				089A7CB51C8D118C0002DCD9 /* Assets.xcassets */,
 				089A7CB71C8D118C0002DCD9 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089A7CDE1C8D11AB0002DCD9 /* HitTestView.m in Sources */,
 				089A7CB11C8D118B0002DCD9 /* ViewController.m in Sources */,
 				089A7CAE1C8D118B0002DCD9 /* AppDelegate.m in Sources */,
 				089A7CAB1C8D118B0002DCD9 /* main.m in Sources */,

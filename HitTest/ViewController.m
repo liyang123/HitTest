@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HitTestView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self hitTest];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)hitTest {
+    HitTestView *hit = [HitTestView hitTestView];
+    hit.frame = self.view.bounds;
+    [self.view addSubview:hit];
+    
+    UITapGestureRecognizer *tapGr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGr:)];
+    [self.view addGestureRecognizer:tapGr];
 }
-
+- (void)tapGr:(UITapGestureRecognizer *)tapGr {
+    NSLog(@"123213");
+}
 @end
